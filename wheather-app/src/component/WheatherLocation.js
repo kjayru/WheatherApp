@@ -1,4 +1,12 @@
 import React from 'react';
-const WheatherLocation = ()=>(
-    <div> *Whater Location </div>
+import Location from './Location';
+import WeatherData from './WeatherData';
+
+const WheatherLocation = () => (
+    <div> 
+        <Location></Location>
+        <WeatherData></WeatherData>
+    </div>
 );
+
+export default WheatherLocation;
