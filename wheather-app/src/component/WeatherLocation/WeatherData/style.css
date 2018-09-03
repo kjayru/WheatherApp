@@ -1,10 +1,11 @@
 .weatherDataCon {
     background: rgba(0,255,255,0.1);
-    padding: 30px;
-    width:400px;
-    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+    margin: 15px auto;
     height: 100px;
     line-height: 100px;
+    border-radius: 20px;
 }
 .temperatureCont { 
     width:60%;
